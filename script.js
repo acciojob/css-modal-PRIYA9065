@@ -1,7 +1,7 @@
 //your JS code here. If required.
 const btn = document.getElementById("openModal");
-const modal = document.getElementByquerySelector("modal");
-const closebtn = document.getElementByquerySelector("close-modal");
+const modal = document.getElementByquerySelector(".modal");
+const closebtn = document.getElementByquerySelector(".close-modal");
 
 btn.onclick = function(){
 	modal.style.display = "block";
